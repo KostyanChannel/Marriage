@@ -1,0 +1,11 @@
+name: Marriage
+main: ru.kostyan.marry.Main
+version: 1.0
+description: Marriage plugin.
+author: KostyanChannel
+
+commands:
+    marry:
+        description: A marry command.
+    mchat:
+        description: Marry chat command.

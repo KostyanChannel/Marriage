@@ -1,0 +1,6 @@
+help1: '&b/marry invite <ник> &7- пожениться на игроке'
+help2: '&b/marry accept <ник> &7- принять предложение о свадьбе'
+help3: '&b/marry deny <ник> &7- отклонить предложение о свадьбе'
+help4: '&b/mchat <сообщение> &7- отправить сообщение партнёру'
+help5: '&b/marry divorce <ник> &7- развестись'
+help6: '&7Плагин &bMarriage &7by &bKostyanChannel'
