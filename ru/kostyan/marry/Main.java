@@ -27,6 +27,7 @@ public class Main extends JavaPlugin implements Listener {
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
         this.getCommand("marry").setExecutor(new MarriageCommand());
         this.getCommand("mchat").setExecutor(new MChat());
+        this.getCommand("mgift").setExecutor(new MGift());
     }
     
     public void onDisable(){

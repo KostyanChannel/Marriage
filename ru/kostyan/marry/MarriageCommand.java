@@ -11,10 +11,12 @@ import static javafx.scene.input.KeyCode.K;
 import static javafx.scene.input.KeyCode.V;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
+import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
 
 /**
  *
@@ -103,6 +105,7 @@ public class MarriageCommand implements CommandExecutor {
             p.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("help4")));
             p.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("help5")));
             p.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("help6")));
+            p.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("help7")));
         }
         return false;
     }

@@ -9,3 +9,5 @@ commands:
         description: A marry command.
     mchat:
         description: Marry chat command.
+    mgift:
+        description: Gift for partner.
